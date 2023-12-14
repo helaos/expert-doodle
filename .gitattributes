@@ -1,0 +1,12 @@
+*       text=auto
+
+*.ts    text  eol=lf
+*.js    text  eol=lf
+*.cjs   text  eol=lf
+*.html  text  eol=lf
+*.vue   text  eol=lf
+*.less  text  eol=lf
+*.yaml  text  eol=lf
+*.json  text  eol=lf
+
+*.md    text  diff=markdown
