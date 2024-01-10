@@ -36,7 +36,7 @@ export const createHTTPRequest = (config?: CreateAxiosDefaults): AxiosInstance =
 }
 
 const instance = createHTTPRequest({
-  baseURL: 'http://127.0.0.1:8080',
+  baseURL: import.meta.env.VITE_BASE_API,
   timeout: 5 * 1000
 })
 

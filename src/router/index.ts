@@ -10,15 +10,15 @@ const router = createRouter({
     },
     {
       path: '/login',
-      component: () => import('@/views/login/Login.vue')
+      component: () => import('@/views/login/index.vue')
     },
     {
       path: '/main',
-      component: () => import('@/views/main/Main.vue')
+      component: () => import('@/views/main/index.vue')
     },
     {
       path: '/:pacthMatch(.*)',
-      component: () => import('@/views/not-found/NotFound.vue')
+      component: () => import('@/views/error/NotFound.vue')
     }
   ]
 })
